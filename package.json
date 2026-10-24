@@ -1,0 +1,26 @@
+{
+  "name": "vinted",
+  "version": "1.0.0",
+  "description": "Generowanie polskojęzycznych opisów ogłoszeń odzieży dziecięcej na podstawie zdjęć z Google Gemini.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "keywords": [
+    "vinted",
+    "gemini",
+    "ai",
+    "typescript",
+    "csv"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^2.23.0",
+    "csv-parse": "^7.0.3",
+    "csv-stringify": "^6.9.0",
+    "dotenv": "^17.4.2",
+    "tsx": "^4.23.15"
+  }
+}
